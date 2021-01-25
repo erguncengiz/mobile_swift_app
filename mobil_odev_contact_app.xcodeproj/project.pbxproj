@@ -3,19 +3,34 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B7DCE099608CDF311188987 /* Pods_mobil_odev_contact_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF2FBA6AE855255F40DCE8FB /* Pods_mobil_odev_contact_app.framework */; };
+		F343EEE925BCCBB100CD8E55 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = F343EEE825BCCBB100CD8E55 /* Common.swift */; };
+		F34DF95025B8B01F00CE0988 /* CreateOrUpdatePerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34DF94F25B8B01F00CE0988 /* CreateOrUpdatePerson.swift */; };
+		F38CA18825BB714400FA3E34 /* people.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F38CA18625BB714400FA3E34 /* people.xcdatamodeld */; };
+		F38CA19D25BB800500FA3E34 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38CA19C25BB800500FA3E34 /* CardView.swift */; };
+		F3B0A2A825BA1A5D0007C30C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B0A2A725BA1A5D0007C30C /* Person.swift */; };
 		F3E0E46425B735E2001F737B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E0E46325B735E2001F737B /* AppDelegate.swift */; };
 		F3E0E46625B735E2001F737B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E0E46525B735E2001F737B /* SceneDelegate.swift */; };
 		F3E0E46825B735E2001F737B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E0E46725B735E2001F737B /* ViewController.swift */; };
 		F3E0E46B25B735E2001F737B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E0E46925B735E2001F737B /* Main.storyboard */; };
 		F3E0E46D25B735E3001F737B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3E0E46C25B735E3001F737B /* Assets.xcassets */; };
 		F3E0E47025B735E3001F737B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E0E46E25B735E3001F737B /* LaunchScreen.storyboard */; };
+		F3E0E47D25B767DE001F737B /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3E0E47C25B767DE001F737B /* CardCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		820F293FD86B3C577210903C /* Pods-mobil_odev_contact_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobil_odev_contact_app.release.xcconfig"; path = "Target Support Files/Pods-mobil_odev_contact_app/Pods-mobil_odev_contact_app.release.xcconfig"; sourceTree = "<group>"; };
+		91252C4481C215978B595B0D /* Pods-mobil_odev_contact_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobil_odev_contact_app.debug.xcconfig"; path = "Target Support Files/Pods-mobil_odev_contact_app/Pods-mobil_odev_contact_app.debug.xcconfig"; sourceTree = "<group>"; };
+		EF2FBA6AE855255F40DCE8FB /* Pods_mobil_odev_contact_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mobil_odev_contact_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F343EEE825BCCBB100CD8E55 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		F34DF94F25B8B01F00CE0988 /* CreateOrUpdatePerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrUpdatePerson.swift; sourceTree = "<group>"; };
+		F38CA18725BB714400FA3E34 /* people.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = people.xcdatamodel; sourceTree = "<group>"; };
+		F38CA19C25BB800500FA3E34 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		F3B0A2A725BA1A5D0007C30C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		F3E0E46025B735E2001F737B /* mobil_odev_contact_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mobil_odev_contact_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E0E46325B735E2001F737B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3E0E46525B735E2001F737B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,7 @@
 		F3E0E46C25B735E3001F737B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3E0E46F25B735E3001F737B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3E0E47125B735E3001F737B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3E0E47C25B767DE001F737B /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B7DCE099608CDF311188987 /* Pods_mobil_odev_contact_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18A879EBAE5258F02244599C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91252C4481C215978B595B0D /* Pods-mobil_odev_contact_app.debug.xcconfig */,
+				820F293FD86B3C577210903C /* Pods-mobil_odev_contact_app.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		79E00718FB8F020F421E61C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF2FBA6AE855255F40DCE8FB /* Pods_mobil_odev_contact_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3423E3625BF1DC500B67BAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3E0E47C25B767DE001F737B /* CardCell.swift */,
+				F3B0A2A725BA1A5D0007C30C /* Person.swift */,
+				F343EEE825BCCBB100CD8E55 /* Common.swift */,
+				F38CA19C25BB800500FA3E34 /* CardView.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F3423E3725BF1DCB00B67BAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3E0E46925B735E2001F737B /* Main.storyboard */,
+				F3E0E46E25B735E3001F737B /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3423E3825BF1DD400B67BAA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F3E0E46725B735E2001F737B /* ViewController.swift */,
+				F34DF94F25B8B01F00CE0988 /* CreateOrUpdatePerson.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		F3E0E45725B735E1001F737B = {
 			isa = PBXGroup;
 			children = (
 				F3E0E46225B735E2001F737B /* mobil_odev_contact_app */,
 				F3E0E46125B735E2001F737B /* Products */,
+				18A879EBAE5258F02244599C /* Pods */,
+				79E00718FB8F020F421E61C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +121,14 @@
 		F3E0E46225B735E2001F737B /* mobil_odev_contact_app */ = {
 			isa = PBXGroup;
 			children = (
+				F3423E3825BF1DD400B67BAA /* Controller */,
+				F3423E3725BF1DCB00B67BAA /* View */,
+				F3423E3625BF1DC500B67BAA /* Model */,
 				F3E0E46325B735E2001F737B /* AppDelegate.swift */,
 				F3E0E46525B735E2001F737B /* SceneDelegate.swift */,
-				F3E0E46725B735E2001F737B /* ViewController.swift */,
-				F3E0E46925B735E2001F737B /* Main.storyboard */,
 				F3E0E46C25B735E3001F737B /* Assets.xcassets */,
-				F3E0E46E25B735E3001F737B /* LaunchScreen.storyboard */,
 				F3E0E47125B735E3001F737B /* Info.plist */,
+				F38CA18625BB714400FA3E34 /* people.xcdatamodeld */,
 			);
 			path = mobil_odev_contact_app;
 			sourceTree = "<group>";
@@ -74,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3E0E47425B735E3001F737B /* Build configuration list for PBXNativeTarget "mobil_odev_contact_app" */;
 			buildPhases = (
+				2EFD8E47FEF390A4AFB6A3D1 /* [CP] Check Pods Manifest.lock */,
 				F3E0E45C25B735E2001F737B /* Sources */,
 				F3E0E45D25B735E2001F737B /* Frameworks */,
 				F3E0E45E25B735E2001F737B /* Resources */,
+				9B43BA643AA70B7F0A0F1CE7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +200,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2EFD8E47FEF390A4AFB6A3D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mobil_odev_contact_app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B43BA643AA70B7F0A0F1CE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mobil_odev_contact_app/Pods-mobil_odev_contact_app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mobil_odev_contact_app/Pods-mobil_odev_contact_app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mobil_odev_contact_app/Pods-mobil_odev_contact_app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F3E0E45C25B735E2001F737B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3B0A2A825BA1A5D0007C30C /* Person.swift in Sources */,
+				F38CA18825BB714400FA3E34 /* people.xcdatamodeld in Sources */,
 				F3E0E46825B735E2001F737B /* ViewController.swift in Sources */,
 				F3E0E46425B735E2001F737B /* AppDelegate.swift in Sources */,
+				F343EEE925BCCBB100CD8E55 /* Common.swift in Sources */,
 				F3E0E46625B735E2001F737B /* SceneDelegate.swift in Sources */,
+				F3E0E47D25B767DE001F737B /* CardCell.swift in Sources */,
+				F38CA19D25BB800500FA3E34 /* CardView.swift in Sources */,
+				F34DF95025B8B01F00CE0988 /* CreateOrUpdatePerson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +399,7 @@
 		};
 		F3E0E47525B735E3001F737B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91252C4481C215978B595B0D /* Pods-mobil_odev_contact_app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +418,7 @@
 		};
 		F3E0E47625B735E3001F737B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 820F293FD86B3C577210903C /* Pods-mobil_odev_contact_app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -339,6 +457,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F38CA18625BB714400FA3E34 /* people.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F38CA18725BB714400FA3E34 /* people.xcdatamodel */,
+			);
+			currentVersion = F38CA18725BB714400FA3E34 /* people.xcdatamodel */;
+			path = people.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = F3E0E45825B735E1001F737B /* Project object */;
 }

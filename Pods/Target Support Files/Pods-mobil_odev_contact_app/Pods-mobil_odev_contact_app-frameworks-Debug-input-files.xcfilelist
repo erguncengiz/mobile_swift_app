@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-mobil_odev_contact_app/Pods-mobil_odev_contact_app-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DatePicker/DatePicker.framework
+${BUILT_PRODUCTS_DIR}/Extended/Extended.framework
+${BUILT_PRODUCTS_DIR}/PaddingLabel/PaddingLabel.framework
+${BUILT_PRODUCTS_DIR}/RAGTextField/RAGTextField.framework
+${BUILT_PRODUCTS_DIR}/SDCAlertView/SDCAlertView.framework
